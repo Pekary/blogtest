@@ -2,3 +2,4 @@ encoding: utf-8
 
 # port
 port: 3000
+theme: jekyll-theme-hacker
