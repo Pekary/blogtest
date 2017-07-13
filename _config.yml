@@ -1,4 +1,16 @@
 encoding: utf-8
-theme: jekyll-theme-slate
 
 author_name: pekary
+title: Read The Tea Leaves
+baseurl: ""
+email: pengky812@gmail.com
+github_username: Pekary
+
+markdown: kramdown
+permalink: pretty
+
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
