@@ -1,17 +1,36 @@
 encoding: utf-8
 port: 3000
 
+# site settings
 author_name: pekary
-title: Read The Tea Leaves
-baseurl: ""
+title: Pekary's Blog
+description: "Read The Tea Leaves"
+header-img: img/home-bg.jpg
 email: pengky812@gmail.com
+url: "pekary.github.io"
+baseurl: ""
+
+
+# SNS settings
 github_username: Pekary
 
-markdown: kramdown
+
+
 permalink: pretty
 
 highlighter: rouge
+
+# markdown settings
+markdown: kramdown
 kramdown:
   input: GFM
   auto_ids: true
   syntax_highlighter: rouge
+  
+ # friends
+ friends: [
+    {
+        title: "Pooki"
+        href: "http://pooki.me"
+    }
+ ]
